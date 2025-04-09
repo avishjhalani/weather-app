@@ -5,7 +5,17 @@
     box-sizing: border-box;
 }
 body{
-    background-color:#222;
+    background:linear-gradient(to right ,#00feba,#5b548a );
+    background-repeat: no-repeat;
+    background-attachment: fixed;
+}
+.head h1{
+    margin: 20px 20px;
+    text-align: center;
+    font-family: 'Times New Roman', Times, serif;
+    font-size: 50px;
+    font-weight: 400;
+
 }
 .card{ 
     max-width: 90%;
@@ -15,6 +25,9 @@ body{
     border-radius: 20px;
     padding: 40px 35px;
     text-align: center;
+    border-style: inset;
+    border-color: silver;
+    
 }
 
 /** search bar**/
